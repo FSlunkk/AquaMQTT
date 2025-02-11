@@ -40,7 +40,7 @@ Paste hex here: https://www.scadacore.com/tools/programming-calculators/online-c
 | Byte Number | Example (dec) | Purpose/Function | Other Information |
 |-------------|---------------|------------------|-------------------|
 | 0           | 29            | Length Field     |                   |
-| 1           | 54            |                  |                   |
+| 1           | 54            | Water Target Temperature                 |                   |
 | 2           | 2             |                  |                   |
 | 3           | 0             |                  |                   |
 | 4           | 33            |                  |                   |
@@ -87,21 +87,21 @@ Paste hex here: https://www.scadacore.com/tools/programming-calculators/online-c
 | Byte Number | Example (dec) | Purpose/Function | Other Information |
 |-------------|---------------|------------------|-------------------|
 | 0           | 29            | Length Field     |                   |
-| 1           |               |                  |                   |
+| 1           | 53              | Hot Water Temp                 |                   |
 | 2           |               |                  |                   |
-| 3           |               |                  |                   |
+| 3           | 31              | Compressor Outlet Temp                 |                   |
 | 4           |               |                  |                   |
-| 5           |               |                  |                   |
+| 5           | 14              |  Upper Evaporator Temp               |                   |
 | 6           |               |                  |                   |
-| 7           |               |                  |                   |
+| 7           | 14              |  Lower Evaporator Temp                |                   |
 | 8           |               |                  |                   |
-| 9           |               |                  |                   |
+| 9           | 18               |  Input Air Temp                |                   |
 | 10          |               |                  |                   |
 | 11          |               |                  |                   |
 | 12          |               |                  |                   |
-| 13          |               |                  |                   |
+| 13          | 53              |   Upper Hot Water Temp               |                   |
 | 14          |               |                  |                   |
-| 15          |               |                  |                   |
+| 15          | 47              | Lower Hot Water Temp                 |                   |
 | 16          |               |                  |                   |
 | 17          |               |                  |                   |
 | 18          |               |                  |                   |
